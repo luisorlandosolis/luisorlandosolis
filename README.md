@@ -2,7 +2,7 @@
 
 ### Infrastructure Automation | Site Reliability Engineering | Hybrid Cloud
 
-IT professional with nearly 20 years of experience, building automation-first platforms across Windows, Linux, Azure, Proxmox, Active Directory, and hybrid cloud environments while documenting the journey through a public, verifiable portfolio.
+Experienced IT professional focused on systems administration, infrastructure operations, automation, and hybrid cloud technologies, building automation-first platforms across Windows, Linux, Azure, Proxmox, Active Directory, and hybrid cloud environments while documenting the journey through a public, verifiable portfolio.
 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/luis-orlando-solis-8564bbb2/)
