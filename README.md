@@ -15,6 +15,7 @@ Experienced IT professional focused on systems administration, infrastructure op
 ```mermaid
 mindmap
   root((Orlando Solis))
+
     Infrastructure
       Azure
       Active Directory
@@ -22,6 +23,8 @@ mindmap
       Proxmox
       Windows Server
       Linux
+      Hybrid Infrastructure
+
     Automation
       Ansible
       Terraform
@@ -29,6 +32,9 @@ mindmap
       Python
       Bash
       WinRM
+      Infrastructure Automation
+      Operational Automation
+
     Security
       WireGuard
       PKI
@@ -37,52 +43,86 @@ mindmap
       Ansible Vault
       RBAC
       Service Accounts
-    Observability
-      Grafana
-      Prometheus
-      PostgreSQL
-      FinOps
-    Recovery
-      Clonezilla
-      Backup Automation
-      RAID Replication
-      Disaster Recovery
-      Recovery Validation
-      Hybrid Recovery
-    Endpoint Management
-      Fleet OSS
-      Orbit
-      osquery
-      Multi-OS Management
-    Platform Engineering
-      Kubernetes
-      Ingress
-      SMB CSI
-      PVC
-      Dynamic Workloads
       Authentication
       Authorization
+
+    Platform Engineering
+      Kubernetes
+      Control Plane
+      Worker Nodes
+      Ingress
+      SMB CSI
+      Persistent Volumes
+      PVC
+      Container Runtime
+      Dynamic Workloads
+      Jenkins on Kubernetes
+      HTTPS Services
+
     CI/CD
       Jenkins
       Static Agents
       Dynamic Kubernetes Agents
       Groovy
       Jenkinsfiles
-      Operational Automation
+      Pipeline Automation
+      Continuous Delivery
+
+    Recovery Engineering
+      Clonezilla
+      Backup Automation
+      RAID Replication
+      Disaster Recovery
+      Recovery Validation
+      Hybrid Recovery
+      Operational Resilience
+      Infrastructure Recovery
+
+    Observability
+      Grafana
+      Prometheus
+      PostgreSQL
+      FinOps
+      Cost Analytics
+      Monitoring
+      Alerting
+
+    Endpoint Management
+      Fleet OSS
+      Orbit
+      osquery
+      Multi-OS Management
+      Asset Visibility
+
     Application Platforms
       Solis Weather Platform
         NGINX Load Balancer
+        Weather Node A
+        Weather Node B
         Azure DR Node
         WireGuard Mesh
+
       Azure FinOps Platform
         Azure Cost Data
         Grafana Dashboards
         Cost Analytics
+        Cost Visibility
+
     Delivery Platforms
+      GitHub
       GitHub Actions
       GitOps
+      Artifact Management
       Planned
         ArgoCD
+
+    Production Platforms
+      Secure Remote Operations Platform
+      Multi-OS Automation Platform
+      Application Delivery Platform
+      Multi-OS Hybrid Data Resilience Platform
+      Security Station Deployment Platform
+
     Community
       Jamf Nation
 ```
