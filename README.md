@@ -15,7 +15,6 @@ Experienced IT professional focused on systems administration, infrastructure op
 ```mermaid
 mindmap
   root((Orlando Solis))
-
     Infrastructure
       Azure
       Active Directory
@@ -23,7 +22,6 @@ mindmap
       Proxmox
       Windows Server
       Linux
-
     Automation
       Ansible
       Terraform
@@ -31,37 +29,62 @@ mindmap
       Python
       Bash
       WinRM
-
     Security
       WireGuard
       PKI
       mTLS
       Zero Trust
       Ansible Vault
-
+      RBAC
+      Service Accounts
     Observability
       Grafana
       Prometheus
       PostgreSQL
       FinOps
-
     Recovery
       Clonezilla
       Backup Automation
       RAID Replication
       Disaster Recovery
       Recovery Validation
-
+      Hybrid Recovery
     Endpoint Management
       Fleet OSS
       Orbit
       osquery
       Multi-OS Management
-
-    Platforms
-      Software Distribution
-      Data Resilience
-      Security Station
+    Platform Engineering
+      Kubernetes
+      Ingress
+      SMB CSI
+      PVC
+      Dynamic Workloads
+      Authentication
+      Authorization
+    CI/CD
+      Jenkins
+      Static Agents
+      Dynamic Kubernetes Agents
+      Groovy
+      Jenkinsfiles
+      Operational Automation
+    Application Platforms
+      Solis Weather Platform
+        NGINX Load Balancer
+        Azure DR Node
+        WireGuard Mesh
+      Azure FinOps Platform
+        Azure Cost Data
+        Grafana Dashboards
+        Cost Analytics
+    Delivery Platforms
+      GitHub Actions
+      GitOps
+      Planned
+        ArgoCD
+    Community
+      Jamf Nation
 ```
 
 ---
