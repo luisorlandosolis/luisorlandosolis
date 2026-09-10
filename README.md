@@ -139,18 +139,35 @@ mindmap
 | Complete | [Dev-Ops-04 — FinOps & Cost Observability](https://github.com/luisorlandosolis/dev-ops-04-finops-cost-observability-platform) | Azure cost ingestion and observability pipeline |
 | Complete | [Dev-Ops-05 — Certificate Lifecycle & Security Response](https://github.com/luisorlandosolis/dev-ops-05-certificate-lifecycle-security-response-platform) | Automated certificate remediation and closed-loop security response |
 | Complete | [Dev-Ops-06 — High Availability & Recovery Automation](https://github.com/luisorlandosolis/dev-ops-06-hybrid-infrastructure-recovery-automation-platform) | Post-outage recovery automation across the lab |
-| In Progress | Dev-Ops-07 — Software Distribution | Centralized software deployment platform |
+| In Progress | Dev-Ops-07 — KrakkenOS Universal Asset Operations Platform | Universal software distribution, asset lifecycle management, governance, compliance, and automation platform |
 | Complete | [Dev-Ops-08 — Multi-OS Hybrid Data Resilience & Preventive Disaster Recovery](https://github.com/luisorlandosolis/dev-ops-08-multi-os-hybrid-data-resilience-preventive-disaster-recovery-platform) | Cross-environment backup and recovery |
 | Complete | [Dev-Ops-09 — Security Station Deployment & Recovery Platform](https://github.com/luisorlandosolis/dev-ops-09-security-station-deployment-operations-platform) | Security Station virtualization, deployment automation, recovery workflows, camera integration, WinRM/RDP automation, and operational standardization |
+| Complete | [Dev-Ops-10 — Kubernetes Platform Engineering & Operations Platform](https://github.com/luisorlandosolis/dev-ops-10-kubernetes-platform-engineering-operations-platform) | Kubernetes latform operations, and workload hosting |
+| Complete | [Dev-Ops-10.5 — CI/CD Platform](https://github.com/luisorlandosolis/dev-ops-10-5-ci-cd-platform) | GitHub integration, Jenkins automation, Pipeline-as-Code, static and dynamic agents, operational validation, and hybrid infrastructure validation |
 
 ### Highlights
 
-- 7-node WireGuard mesh with `/32`-scoped peers and hardened, immutable configs
-- Zero Trust PKI with enforced 3-phase mTLS
-- Fleet MDM managing enrolled macOS, Linux, and Windows endpoints, including a cross-compiled `orbit.exe` agent build for Windows
-- Grafana Security Command Center with one-click breach/remediate webhook actions
-- 3-node Proxmox HA cluster with a Terraform destroy/rebuild pipeline
-- Full recovery from a multi-day power outage: XFS root filesystem repair, GRUB recovery, fstab/UUID correction, and service restoration across the lab
+### Highlights
+
+- Designed and operated a multi-platform DevOps portfolio spanning infrastructure provisioning, automation, FinOps, security operations, recovery automation, Kubernetes platform engineering, and CI/CD delivery.
+
+- Built a 7-node WireGuard mesh with `/32`-scoped peers, Zero Trust PKI, and enforced mutual TLS authentication across hybrid infrastructure environments.
+
+- Implemented cross-platform automation for Windows, Linux, and macOS using Ansible, Fleet, PowerShell, Bash, and Infrastructure-as-Code practices.
+
+- Engineered Azure and Proxmox hybrid infrastructure provisioning workflows using Terraform and automated configuration management.
+
+- Developed FinOps ingestion and observability pipelines providing automated Azure cost collection, reporting, and operational visibility.
+
+- Designed and validated a multi-tier backup, replication, archive, and cloud offsite recovery architecture supporting preventive disaster recovery objectives.
+
+- Built a Kubernetes Platform Engineering & Operations Platform featuring multi-node cluster operations, SMB CSI persistent storage, ingress services, workload hosting, and platform lifecycle management.
+
+- Built a Kubernetes-hosted CI/CD Platform with GitHub integration, Pipeline-as-Code workflows, static and dynamic Jenkins agents, and operational validation automation.
+
+- Successfully validated hybrid operational workflows spanning load-balanced application services, WireGuard connectivity, Azure disaster recovery resources, and platform health verification.
+
+- Performed successful recovery from a multi-day infrastructure outage involving XFS filesystem repair, GRUB recovery, storage restoration, service recovery, and operational platform restoration.
 
 ---
 
