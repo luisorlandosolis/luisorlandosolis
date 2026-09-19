@@ -141,12 +141,12 @@ mindmap
 
 | Status | Platform | Focus |
 |---|---|---|
-| Complete | [Dev-Ops-01 — Secure Remote Operations](https://github.com/luisorlandosolis/dev-ops-01-secure-remote-operations-platform) | Hardened remote access foundation for the lab |
+| Complete | [Dev-Ops-01 — Secure Remote Operations](https://github.com/luisorlandosolis/dev-ops-01-secure-remote-operations-platform) | Hardened remote access foundation across the hybrid environment |
 | Complete | [Dev-Ops-02 — Multi-OS Automation](https://github.com/luisorlandosolis/dev-ops-02-multi-os-automation-platform) | Cross-platform configuration management (Windows/Linux) |
 | Complete | [Dev-Ops-03 — Hybrid Infrastructure Provisioning](https://github.com/luisorlandosolis/dev-ops-03-hybrid-infrastructure-provisioning-platform) | Azure + Proxmox provisioning via Terraform and Ansible |
 | Complete | [Dev-Ops-04 — FinOps & Cost Observability](https://github.com/luisorlandosolis/dev-ops-04-finops-cost-observability-platform) | Azure cost ingestion and observability pipeline |
 | Complete | [Dev-Ops-05 — Certificate Lifecycle & Security Response](https://github.com/luisorlandosolis/dev-ops-05-certificate-lifecycle-security-response-platform) | Automated certificate remediation and closed-loop security response |
-| Complete | [Dev-Ops-06 — High Availability & Recovery Automation](https://github.com/luisorlandosolis/dev-ops-06-hybrid-infrastructure-recovery-automation-platform) | Post-outage recovery automation across the lab |
+| Complete | [Dev-Ops-06 — High Availability & Recovery Automation](https://github.com/luisorlandosolis/dev-ops-06-hybrid-infrastructure-recovery-automation-platform) | Post-outage recovery automation across the hybrid environment |
 | In Progress | Dev-Ops-07 — KrakkenOS Universal Asset Operations Platform | Universal software distribution, asset lifecycle management, governance, compliance, and automation platform |
 | Complete | [Dev-Ops-08 — Multi-OS Hybrid Data Resilience & Preventive Disaster Recovery](https://github.com/luisorlandosolis/dev-ops-08-multi-os-hybrid-data-resilience-preventive-disaster-recovery-platform) | Cross-environment backup and recovery |
 | Complete | [Dev-Ops-09 — Security Station Deployment & Recovery Platform](https://github.com/luisorlandosolis/dev-ops-09-security-station-deployment-operations-platform) | Security Station virtualization, deployment automation, recovery workflows, camera integration, WinRM/RDP automation, and operational standardization |
@@ -182,7 +182,7 @@ mindmap
 
 ## About Me
 
-What started as self-directed infrastructure learning evolved into a portfolio of infrastructure automation, security, observability, and disaster recovery platforms built through real implementation and incident response rather than isolated lab exercises.
+What started as self-directed infrastructure learning evolved into a portfolio of infrastructure automation, security, observability, and disaster recovery platforms built through real implementation and incident response rather than isolated tutorials.
 
 ---
 
