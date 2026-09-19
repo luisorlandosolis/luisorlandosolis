@@ -144,6 +144,7 @@ mindmap
 | Complete | [Dev-Ops-09 — Security Station Deployment & Recovery Platform](https://github.com/luisorlandosolis/dev-ops-09-security-station-deployment-operations-platform) | Security Station virtualization, deployment automation, recovery workflows, camera integration, WinRM/RDP automation, and operational standardization |
 | Complete | [Dev-Ops-10 — Kubernetes Platform Engineering & Operations Platform](https://github.com/luisorlandosolis/dev-ops-10-kubernetes-platform-engineering-operations-platform) | Kubernetes latform operations, and workload hosting |
 | Complete | [Dev-Ops-10.5 — CI/CD Platform](https://github.com/luisorlandosolis/dev-ops-10-5-ci-cd-platform) | GitHub integration, Jenkins automation, Pipeline-as-Code, static and dynamic agents, operational validation, and hybrid infrastructure validation |
+| Complete | [Dev-Ops-11 — Source Control & Modernized Delivery Automation Platform](https://github.com/luisorlandosolis/dev-ops-11-source-control-modernized-delivery-automation-platform) | GitHub Actions, static self-hosted runners, ARC dynamic runners, Kubernetes-native workflow execution, custom telemetry, Prometheus, Grafana, platform observability, desired-state monitoring, and operational dashboards |
 
 ### Highlights
 
