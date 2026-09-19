@@ -5,7 +5,7 @@
 Self-taught platform and infrastructure engineer with about 20 years in IT, building secure hybrid infrastructure, Kubernetes-native CI/CD, and automation-first platforms across Windows, Linux, Azure, Proxmox, Active Directory, and Kubernetes, while documenting the journey through a public, verifiable portfolio.
 
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/luis-orlando-solis-8564bbb2/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/luisorlandosolis/)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white)](mailto:luiso.solis@gmail.com)
 
 ---
