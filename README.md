@@ -1,8 +1,8 @@
 # Orlando Solis
 
-### Infrastructure Automation | Site Reliability Engineering | Hybrid Cloud
+### Platform Engineering | DevSecOps | Site Reliability Engineering
 
-Experienced IT professional focused on systems administration, infrastructure operations, automation, and hybrid cloud technologies, building automation-first platforms across Windows, Linux, Azure, Proxmox, Active Directory, and hybrid cloud environments while documenting the journey through a public, verifiable portfolio.
+Self-taught platform and infrastructure engineer with about 20 years in IT, building secure hybrid infrastructure, Kubernetes-native CI/CD, and automation-first platforms across Windows, Linux, Azure, Proxmox, Active Directory, and Kubernetes, while documenting the journey through a public, verifiable portfolio.
 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/luis-orlando-solis-8564bbb2/)
@@ -81,6 +81,8 @@ mindmap
     Observability
       Grafana
       Prometheus
+      Node Exporter
+      Custom Telemetry
       PostgreSQL
       FinOps
       Cost Analytics
@@ -111,6 +113,11 @@ mindmap
     Delivery Platforms
       GitHub
       GitHub Actions
+      Actions Runner Controller
+      Static Runners
+      Dynamic Runners
+      GitHub App Authentication
+      cert-manager
       GitOps
       Artifact Management
       Planned
@@ -122,6 +129,7 @@ mindmap
       Application Delivery Platform
       Multi-OS Hybrid Data Resilience Platform
       Security Station Deployment Platform
+      Source Control and Modernized Delivery Platform
 
     Community
       Jamf Nation
