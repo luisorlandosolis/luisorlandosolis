@@ -142,10 +142,9 @@ mindmap
 | In Progress | Dev-Ops-07 — KrakkenOS Universal Asset Operations Platform | Universal software distribution, asset lifecycle management, governance, compliance, and automation platform |
 | Complete | [Dev-Ops-08 — Multi-OS Hybrid Data Resilience & Preventive Disaster Recovery](https://github.com/luisorlandosolis/dev-ops-08-multi-os-hybrid-data-resilience-preventive-disaster-recovery-platform) | Cross-environment backup and recovery |
 | Complete | [Dev-Ops-09 — Security Station Deployment & Recovery Platform](https://github.com/luisorlandosolis/dev-ops-09-security-station-deployment-operations-platform) | Security Station virtualization, deployment automation, recovery workflows, camera integration, WinRM/RDP automation, and operational standardization |
-| Complete | [Dev-Ops-10 — Kubernetes Platform Engineering & Operations Platform](https://github.com/luisorlandosolis/dev-ops-10-kubernetes-platform-engineering-operations-platform) | Kubernetes latform operations, and workload hosting |
+| Complete | [Dev-Ops-10 — Kubernetes Platform Engineering & Operations Platform](https://github.com/luisorlandosolis/dev-ops-10-kubernetes-platform-engineering-operations-platform) | Kubernetes platform engineering, operations, and workload hosting |
 | Complete | [Dev-Ops-10.5 — CI/CD Platform](https://github.com/luisorlandosolis/dev-ops-10-5-ci-cd-platform) | GitHub integration, Jenkins automation, Pipeline-as-Code, static and dynamic agents, operational validation, and hybrid infrastructure validation |
-
-### Highlights
+| Complete | [Dev-Ops-11 — Source Control & Modernized Delivery Automation Platform](https://github.com/luisorlandosolis/dev-ops-11-source-control-modernized-delivery-automation-platform) | GitHub Actions, static self-hosted runners, ARC dynamic runners, Kubernetes-native workflow execution, custom telemetry, Prometheus, Grafana, platform observability, desired-state monitoring, and operational dashboards |
 
 ### Highlights
 
@@ -165,9 +164,11 @@ mindmap
 
 - Built a Kubernetes-hosted CI/CD Platform with GitHub integration, Pipeline-as-Code workflows, static and dynamic Jenkins agents, and operational validation automation.
 
-- Successfully validated hybrid operational workflows spanning load-balanced application services, WireGuard connectivity, Azure disaster recovery resources, and platform health verification.
+- Built a GitHub Actions delivery platform with a dual runner architecture: a persistent static runner plus ephemeral Kubernetes-hosted runners managed by Actions Runner Controller (ARC), using GitHub App authentication and cert-manager PKI.
 
-- Performed successful recovery from a multi-day infrastructure outage involving XFS filesystem repair, GRUB recovery, storage restoration, service recovery, and operational platform restoration.
+- Added end-to-end runner observability with custom telemetry scripts, Node Exporter's textfile collector, Prometheus, and a Grafana operations dashboard covering runner health, ARC desired state, and runtime activity.
+
+- Successfully validated hybrid operational workflows spanning load-balanced application services, WireGuard connectivity, Azure disaster recovery resources, and platform health verification.
 
 ---
 
@@ -181,12 +182,27 @@ What started as self-directed infrastructure learning evolved into a portfolio o
 
 ```mermaid
 flowchart LR
-    A[Dev-Ops-01<br>Secure Remote Operations] --> B[Dev-Ops-02<br>Multi-OS Automation]
-    B --> C[Dev-Ops-03<br>Infrastructure Provisioning]
-    C --> D[Dev-Ops-04<br>FinOps & Observability]
-    D --> E[Dev-Ops-05<br>Certificate Lifecycle & Security]
-    E --> F[Dev-Ops-06<br>Recovery Automation]
-    F --> G[Dev-Ops-07<br>Software Distribution]
-    G --> H[Dev-Ops-08<br>Data Resilience & Recovery]
-    H --> I[Dev-Ops-09<br>Security Station Deployment]
+    subgraph F["Foundation"]
+        direction TB
+        D01[Dev-Ops-01<br>Secure Remote Operations] --> D02[Dev-Ops-02<br>Multi-OS Automation]
+        D02 --> D03[Dev-Ops-03<br>Infrastructure Provisioning]
+    end
+    subgraph O["Observability & Security"]
+        direction TB
+        D04[Dev-Ops-04<br>FinOps & Observability] --> D05[Dev-Ops-05<br>Certificate Lifecycle & Security]
+        D05 --> D06[Dev-Ops-06<br>Recovery Automation]
+    end
+    subgraph R["Administration & Resilience"]
+        direction TB
+        D07[Dev-Ops-07<br>KrakkenOS Asset Operations] --> D08[Dev-Ops-08<br>Data Resilience & Recovery]
+        D08 --> D09[Dev-Ops-09<br>Security Station Deployment]
+    end
+    subgraph K["Cloud Native Delivery"]
+        direction TB
+        D10[Dev-Ops-10<br>Kubernetes Platform] --> D105[Dev-Ops-10.5<br>CI/CD Platform]
+        D105 --> D11[Dev-Ops-11<br>GitHub Actions + ARC + Observability]
+    end
+    F --> O --> R --> K
 ```
+
+**Next:** Dev-Ops-11.5 (GitOps and ArgoCD delivery), Dev-Ops-12 (AIOps and multi-OS operations intelligence).
