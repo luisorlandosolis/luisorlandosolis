@@ -153,6 +153,7 @@ mindmap
 | Complete | [Dev-Ops-10 — Kubernetes Platform Engineering & Operations Platform](https://github.com/luisorlandosolis/dev-ops-10-kubernetes-platform-engineering-operations-platform) | Kubernetes platform engineering, operations, and workload hosting |
 | Complete | [Dev-Ops-10.5 — CI/CD Platform](https://github.com/luisorlandosolis/dev-ops-10-5-ci-cd-platform) | GitHub integration, Jenkins automation, Pipeline-as-Code, static and dynamic agents, operational validation, and hybrid infrastructure validation |
 | Complete | [Dev-Ops-11 — Source Control & Modernized Delivery Automation Platform](https://github.com/luisorlandosolis/dev-ops-11-source-control-modernized-delivery-automation-platform) | GitHub Actions, static self-hosted runners, ARC dynamic runners, Kubernetes-native workflow execution, custom telemetry, Prometheus, Grafana, platform observability, desired-state monitoring, and operational dashboards |
+| Complete | [Dev-Ops-12 — GitOps & Configuration Management Platform](https://github.com/luisorlandosolis/dev-ops-12-gitops-configuration-management-platform-public) | GitOps configuration governance, ArgoCD, Kubernetes RBAC, private-CA PKI/TLS, network governance, declarative configuration management, and functional validation |
 
 ### Highlights
 
@@ -205,12 +206,13 @@ flowchart LR
         D07[Dev-Ops-07<br>KrakkenOS Asset Operations] --> D08[Dev-Ops-08<br>Data Resilience & Recovery]
         D08 --> D09[Dev-Ops-09<br>Security Station Deployment]
     end
-    subgraph K["Cloud Native Delivery"]
+        subgraph K["Cloud Native Delivery"]
         direction TB
-        D10[Dev-Ops-10<br>Kubernetes Platform] --> D105[Dev-Ops-10.5<br>CI/CD Platform]
-        D105 --> D11[Dev-Ops-11<br>GitHub Actions + ARC + Observability]
+        D10["Dev-Ops-10<br>Kubernetes Platform"] --> D105["Dev-Ops-10.5<br>CI/CD Platform"]
+        D105 --> D11["Dev-Ops-11<br>Source Control + Modernized Delivery"]
+        D11 --> D12["Dev-Ops-12<br>GitOps + Configuration Management"]
     end
     F --> O --> R --> K
 ```
 
-**Next:** Dev-Ops-11.5 (GitOps and ArgoCD delivery), Dev-Ops-12 (AIOps and multi-OS operations intelligence).
+**Next:** Dev-Ops-13 Backup & Platform Recovery, Dev-Ops-14 AIOps, Dev-Ops-15 Enterprise Identity & Administration.
