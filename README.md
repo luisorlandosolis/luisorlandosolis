@@ -183,7 +183,7 @@ mindmap
 
 ## About Me
 
-What started as self-directed infrastructure learning evolved into a portfolio of infrastructure automation, security, observability, and disaster recovery platforms built through real implementation and incident response rather than isolated tutorials.
+I design, build, validate, and document integrated platforms spanning infrastructure automation, security, observability, resilience, Kubernetes, CI/CD, GitOps, and configuration governance. Each platform builds on previous capabilities to create an increasingly cohesive Platform Engineering environment.
 
 ---
 
